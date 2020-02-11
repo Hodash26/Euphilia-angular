@@ -1,13 +1,13 @@
 /* MOBILE */
 @font-face {
-  src: url("../../assets/font/CardinalAlternate.ttf");
+  src: url("../../assets/font/Cardinal.ttf");
   font-family: Euphilia-font;
 }
 
 h1 {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
-  font-size: 2.5em;
+  font-size: 2.6em;
   font-family: Euphilia-font;
   text-align: center;
 }
@@ -18,8 +18,8 @@ body {
 }
 
 .logo-euphilia {
-  height: 12rem;
-  width: 13.5rem;
+  height: 13rem;
+  width: 14.5rem;
 }
 
 .container-logo {
@@ -28,25 +28,15 @@ body {
   margin-bottom: 1rem;
 }
 
-.hide {
-  /* display: none; */
-}
-
-.print:hover > ul {
-  display: block !important;
-}
-
 nav{
   width: 100%;
-  height: 300px;
   margin: 0 auto;
   background-color: white;
   position: sticky;
   top: 0px;
 }
 
-nav ul{
-  list-style-type: none;
+.nav-menu{
   display: flex;
 }
 
@@ -54,10 +44,16 @@ nav ul li{
   flex: 1 1 auto;
   text-align: center;
   position: relative;
+  list-style-type: none;
+}
+
+.nav-menu {
+  padding-left: 0;
+  background-color: #CAB07F;
 }
 
 nav a{
-  /* display: block; */
+  display: block;
   text-decoration: none;
   color: black;
   border-bottom: 2px solid transparent;
@@ -76,11 +72,13 @@ nav a:hover{
   position: absolute;
   width: 100%;
   z-index: 1000;
+  padding-left: 0;
 }
 nav > ul li:hover .sous{
-  display: flex;
+  display: block;
   flex-flow: column wrap;
 }
+
 .sous li{
   flex: 1 1 auto;
   text-align: left;

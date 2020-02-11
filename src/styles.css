@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* MOBILE */
+@import "~bootstrap/dist/css/bootstrap.css";
 
 body {
   margin: 0;
@@ -7,3 +8,4 @@ body {
   background-image: url("./assets/img/background-parchemin.jpg");
   background-size: cover;
 }
+
