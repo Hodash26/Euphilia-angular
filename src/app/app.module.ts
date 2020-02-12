@@ -10,6 +10,11 @@ import { CompanyComponent } from './presentation/company/company.component';
 import { FaqComponent } from './presentation/faq/faq.component';
 import { VestigesEuphiliaComponent } from './presentation/vestiges-euphilia/vestiges-euphilia.component';
 import { DiscordComponent } from './presentation/discord/discord.component';
+import { HistoireComponent } from './univers/histoire/histoire.component';
+import { RacesComponent } from './univers/races/races.component';
+import { MondeComponent } from './univers/monde/monde.component';
+import { EvenementsComponent } from './univers/evenements/evenements.component';
+import { PersonnagesComponent } from './univers/personnages/personnages.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +26,11 @@ import { DiscordComponent } from './presentation/discord/discord.component';
     FaqComponent,
     VestigesEuphiliaComponent,
     DiscordComponent,
+    HistoireComponent,
+    RacesComponent,
+    MondeComponent,
+    EvenementsComponent,
+    PersonnagesComponent,
   ],
   imports: [
     BrowserModule,

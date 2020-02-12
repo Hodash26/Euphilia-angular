@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./discord.component.css']
 })
 export class DiscordComponent implements OnInit {
+  title = 'Discord';
 
   constructor() { }
 

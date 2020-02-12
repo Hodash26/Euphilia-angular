@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vestiges-euphilia.component.css']
 })
 export class VestigesEuphiliaComponent implements OnInit {
+  title = 'Les vestiges d\'Euphilia';
 
   constructor() { }
 
