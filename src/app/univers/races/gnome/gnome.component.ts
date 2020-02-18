@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gnome.component.css']
 })
 export class GnomeComponent implements OnInit {
-
+title = 'Gnome';
   constructor() { }
 
   ngOnInit() {

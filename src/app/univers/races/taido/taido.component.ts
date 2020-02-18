@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./taido.component.css']
 })
 export class TaidoComponent implements OnInit {
-
+title = 'Taïdo';
   constructor() { }
 
   ngOnInit() {

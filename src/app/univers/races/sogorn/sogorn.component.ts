@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sogorn.component.css']
 })
 export class SogornComponent implements OnInit {
-
+title = 'Sogorn';
   constructor() { }
 
   ngOnInit() {

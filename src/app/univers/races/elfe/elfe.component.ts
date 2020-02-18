@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./elfe.component.css']
 })
 export class ElfeComponent implements OnInit {
-
+title = 'Elfe';
   constructor() { }
 
   ngOnInit() {

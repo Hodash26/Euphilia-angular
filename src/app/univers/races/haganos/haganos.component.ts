@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./haganos.component.css']
 })
 export class HaganosComponent implements OnInit {
-
+title = 'Haganos';
   constructor() { }
 
   ngOnInit() {

@@ -82,4 +82,8 @@ p {
     width: 750px;
     height: 450px;
   }
+
+  p {
+    font-size: 19px;
+  }
 }

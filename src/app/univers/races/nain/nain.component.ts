@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nain.component.css']
 })
 export class NainComponent implements OnInit {
-
+title = 'Nain';
   constructor() { }
 
   ngOnInit() {

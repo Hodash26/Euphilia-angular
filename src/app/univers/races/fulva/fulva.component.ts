@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fulva.component.css']
 })
 export class FulvaComponent implements OnInit {
-
+title = 'Fulva';
   constructor() { }
 
   ngOnInit() {

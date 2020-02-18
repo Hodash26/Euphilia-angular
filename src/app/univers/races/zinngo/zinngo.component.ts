@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./zinngo.component.css']
 })
 export class ZinngoComponent implements OnInit {
-
+title = 'Zinngo';
   constructor() { }
 
   ngOnInit() {
